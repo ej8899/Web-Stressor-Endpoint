@@ -38,7 +38,8 @@ For best results — including **visual graphs, performance summaries, and AI-ge
 
 🔗 [https://ejmedia.ca/tools-webstress](https://ejmedia.ca/tools-webstress)
 
-This interface handles all parameter construction, safety checks, and makes it easier to run tests without manually editing URLs. It also provides a one-click
+This interface handles all parameter construction, safety checks, and makes it easier to run tests without manually editing URLs. It also provides a one-click JSON export containing both the raw results and an embedded AI analysis prompt.
+
 ---
 
 ## Requirements
