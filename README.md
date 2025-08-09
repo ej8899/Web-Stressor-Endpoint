@@ -32,6 +32,14 @@ Pair it with a browser‑based tester (like your “Web Server Stress Tester” 
 > Default CORS is `Access-Control-Allow-Origin: *`. See **CORS** below to change.
 
 ---
+## Using with the ejmedia.ca Front-End
+
+For best results — including **visual graphs, performance summaries, and AI-generated analysis output data** — use this endpoint via our hosted front-end tool:
+
+🔗 [https://ejmedia.ca/tools-webstress](https://ejmedia.ca/tools-webstress)
+
+This interface handles all parameter construction, safety checks, and makes it easier to run tests without manually editing URLs. It also provides a one-click
+---
 
 ## Requirements
 
@@ -136,13 +144,6 @@ All parameters are optional. Values are clamped to safe caps to avoid accidents.
 # Then issue a Range header from the client:
 # curl -H "Range: bytes=0-999" "https://.../api-stress-target.php?bytes=524288&accept_ranges=1&gzip=0" -i
 ```
-
----
-
-## Using with a browser test page
-
-Point your front‑end **base URL** at your domain (the tool can auto‑append `api-stress-target.php`), and toggle parameters via the UI.  
-If you set `$SECRET_TOKEN`, ensure the UI passes `&token=...` with each request.
 
 ---
 
